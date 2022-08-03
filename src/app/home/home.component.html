@@ -1,0 +1,28 @@
+
+<div class="container">
+
+  <div class="title">
+    <h2>Books List</h2>
+    
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>BookName</th>
+        <th>AuthorName</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let list of bookList">
+        <td>{{list.id}}</td>
+        <td>{{list.title}}</td>
+        <td>{{list.author}}</td>
+        <td>{{list.description}}</td>
+
+      </tr>
+
+    </tbody>
+  </table>
+    </div>
